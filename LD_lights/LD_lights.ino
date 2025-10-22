@@ -1,3 +1,20 @@
+/* Dependencies (install via Arduino Library Manager)
+ * - PubSubClient (by Nick O'Leary)
+ * - Adafruit GFX Library (by Adafruit)
+ * - Adafruit SSD1306 (by Adafruit)
+ * Built-in on ESP32 core: WiFi.h, Wire.h, time.h
+ *
+ * Credentials (placeholders for public repos):
+ *   const char* WIFI_SSID    = "YOUR_WIFI";
+ *   const char* WIFI_PASS    = "YOUR_WIFI_PASSWORD";
+ *   const char* AIO_USERNAME = "YOUR_AIO_USERNAME";
+ *   const char* AIO_KEY      = "YOUR_AIO_KEY";  // generate in Adafruit IO
+ *   const char* DEVICE_ID    = "A";             // set "A" on one lamp, "B" on the other
+ *
+ * Before uploading to your board: replace those strings with your real values locally.
+ * Do NOT push real values to a public repo.
+ */
+
 #include <WiFi.h>
 #include <PubSubClient.h>
 #include <Wire.h>
