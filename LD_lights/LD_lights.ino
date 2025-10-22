@@ -5,13 +5,11 @@
 #include <Adafruit_SSD1306.h>
 #include <time.h>
 
-// ===== EDIT (leave as-is for now so Berkeley keeps working) =====
 const char* WIFI_SSID  = "YOUR_WIFI";
 const char* WIFI_PASS  = "YOUR_WIFI_PASSWORD";
 const char* AIO_USERNAME = "YOUR_AIO_USERNAME";
 const char* AIO_KEY      = "YOUR_AIO_KEY";
 const char* DEVICE_ID    = "A";  //  "B" for the other esp-32
-// ===============================================================
 
 const char* MQTT_HOST = "io.adafruit.com";
 const uint16_t MQTT_PORT = 1883;
